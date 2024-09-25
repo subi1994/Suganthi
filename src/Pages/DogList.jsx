@@ -35,9 +35,8 @@ const DogList = () => {
   return (   
 
   <>
-   
-    <div className="card bg-base-100 w-96 shadow-xl mx-auto ">
-  <figure className="px-10 pt-10">
+   <div style={{height:"64vh"}}>    <div className="card bg-base-800 w-96 shadow-xl mx-auto h-800 mt-50 ">
+  <figure className="px-10 pt-10 h-80 mt-50 bg-base-500" >
     <img
       src={data}
       alt="Random Dog"
@@ -51,6 +50,7 @@ const DogList = () => {
       <button className="btn btn-primary"  onClick={dataFetch}>Buy Now</button>
     </div>
   </div>
+</div>
 </div>
 
       

@@ -6,10 +6,11 @@ import Footer from "./components/Footer";
 export default function App() {
   return (
     <>
-      <NavBar1/>
-      <Outlet/>
-      <Footer/>
-      {/* <VideoGame/> */}
+    <div><NavBar1/></div>
+    <div><Outlet/></div>
+    <div> <Footer/></div> 
+      
+    
     </>
   );
 }
